@@ -3,13 +3,21 @@
 Swagger - http://127.0.0.1:8080/swagger-ui/#/main-controller
 
 Запросы GET, POST, PUT. Примеры:
+
 Запрос баланса по одному счету:
+
 GET localhost:8080/account/1
+
 Ввод денег
+
 PUT localhost:8080/depositto/1 '{"balance": "500"}'
+
 Вывод денег
+
 PUT localhost:8080/withdrawal/1 '{"balance": "500"}'
+
 Перевод денег
+
 POST localhost:8080/transferto/ '{"fromUser": "1", "toUser":"2", "amount": "100"}'
 
 
